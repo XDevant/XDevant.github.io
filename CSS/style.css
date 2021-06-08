@@ -61,7 +61,8 @@ a {
 
 section .row img {
   margin: 0 0 30px;
-  width: 100%;
+  width: 10%;
+  height: auto;
 }
 
 .col-md-6 {
@@ -91,14 +92,6 @@ section .row img {
   height: 300px;
 }
 
-figure img {
-  width: 100%;
-  height: auto;
-}
-
-figure {
-  margin-bottom: 30px;
-}
 
 footer {
   font-size: 12px;
@@ -116,6 +109,4 @@ footer ul {
 
 .language {
   display: flex;
-  justify-content: flex-start;
-  width: 10%;
 }
