@@ -1,21 +1,29 @@
 body {
   font-family: Roboto, sans-serif;
   background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 header {
-  padding: 20px 0;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
 }
 
-header .row,
-footer .row {
+nav {
   display: flex;
   align-items: center;
 }
 
 h1 {
   font-weight: 700;
-  margin: 0;
+  padding-left: 20px;
 }
 
 nav {
@@ -25,66 +33,83 @@ nav {
 
 a {
   padding: 0 20px;
-  margin: 0;
 }
 
-.jumbotron {
+.title {
   display: flex;
   align-items: center;
   background-image: url('https://content.codecademy.com/projects/personal_portfolio/background.jpeg');
   background-size: cover;
   color: #ffffff;
-  height: 100px;
+  height: 80px;
+  width: 100%;
 }
 
-#jhomebotron {
+.title h2 {
+  padding-left: 20%;
+}
+
+.jumbotron {
   display: block;
   background-image: url(../Assets/Lismore.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: black;
-  height: 450px; 
+  height: 450px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border-bottom: solid black 1px;
 }
 
 .jumbotron h2 {
   font-size: 60px;
   font-weight: 700;
-  margin: 0;
   color: #fff;
 }
 
 .jumbotron h3 {
-  margin: 0 0 20px;
   color: #fff;
 }
 
-section .row img {
-  margin: 0 0 30px;
-  width: 10%;
-  height: auto;
+main {
+  display: flex;
+  padding-left: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.col-md-6 {
-  margin: 0 0 30px;
+main section {
+  display: flex;
+  padding-left: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  background-color: #ffffff;
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
+main h3 {
+  text-align: center;
 }
 
-.btn-secondary {
-  background-color: #2a70e0;
-  color: #ffffff;
-  margin: 0 0 30px;
+
+.language img {
+  height: 1.5em;
+}
+
+
+a {
+  color: darkslateblue;
+  background-color: lavender;
+}
+
+a:hover {
+  font-size: 1.1em;
 }
 
 .portrait {
@@ -92,21 +117,26 @@ section .row img {
   height: 300px;
 }
 
-
 footer {
-  font-size: 12px;
-  padding: 20px 0;
+  font-size: 15px;
 }
 
-footer .col-sm-8 {
+
+footer section {
+  padding-left: 30px;
   display: flex;
-  justify-content: flex-end;
+  width: 100%;
+  justify-content: center;
 }
 
-footer ul {
-  list-style: none;
+.footer {
+  justify-content: space-between;
 }
 
-.language {
+.copy {
+  font-size: 12px;
+}
+
+figure {
   display: flex;
 }
