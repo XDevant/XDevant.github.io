@@ -12,7 +12,6 @@ body {
 }
 
 header {
-  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -31,10 +30,6 @@ h1 {
 nav {
   display: flex;
   justify-content: flex-end;
-}
-
-a {
-  padding: 0 20px;
 }
 
 .title {
@@ -67,12 +62,14 @@ a {
   font-size: 60px;
   font-weight: 700;
   color: #fff;
+  text-shadow: 1px 1px black;
 }
 
 .jumbotron h3 {
   color: #fff;
   text-align: left;
   padding-left: 10%;
+  text-shadow: 1px 1px black;
 }
 
 main {
@@ -89,30 +86,52 @@ main section {
   justify-content: space-around;
 }
 
-article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 main h3 {
   text-align: center;
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
 
-.language img {
-  height: 1.5em;
+.cursus {
+  border: solid darkslategrey 2px;
+  border-radius: 5%;
+  box-shadow: 10px 5px 5px gray;
+  padding: 0 20px 10px 0;
+  margin: 5px 10px;
+  background-color: white;
 }
 
 .language {
+  border: solid darkslategrey 2px;
+  border-radius: 5%;
+  box-shadow: 10px 5px 5px gray;
+  padding: 0 20px 0 0;
+  margin-top: 5px;
+  background-color: white;
+}
+
+figure img {
+  height: 1.5em;
+}
+
+figure {
   display: inline-flex;
   align-items: center;
 }
 
 
 a {
+  padding: 0 20px;
   color: darkslateblue;
   background-color: lavender;
+  transition-property: font-size;
+  transition-duration: 0.2s;
+  transition-timing-function:ease-in;
 }
 
 a:hover {
