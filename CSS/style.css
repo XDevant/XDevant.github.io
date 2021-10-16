@@ -2,17 +2,19 @@ body {
   font-family: Roboto, sans-serif;
   background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
   margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 header {
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   justify-content: space-between;
 }
 
@@ -58,7 +60,6 @@ a {
   background-color: black;
   height: 450px;
   padding-bottom: 0px;
-  margin-bottom: 0px;
   border-bottom: solid black 1px;
 }
 
@@ -70,12 +71,13 @@ a {
 
 .jumbotron h3 {
   color: #fff;
+  text-align: left;
+  padding-left: 10%;
 }
 
 main {
   display: flex;
   padding-left: 20px;
-  width: 100%;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -102,6 +104,11 @@ main h3 {
   height: 1.5em;
 }
 
+.language {
+  display: inline-flex;
+  align-items: center;
+}
+
 
 a {
   color: darkslateblue;
@@ -121,7 +128,6 @@ a:hover {
   background-image: url('../Assets/background.png');
   background-size: cover;
   height: 5px;
-  width: 100%;
 }
 
 footer {
@@ -132,18 +138,30 @@ footer {
 footer section {
   padding-left: 30px;
   display: flex;
-  width: 100%;
   justify-content: center;
+  align-items: center;
+  padding: 0 1% ;
+}
+
+footer p {
+  padding: 0 4%;
+}
+
+.footer p {
+  padding: 0;
 }
 
 .footer {
   justify-content: space-between;
 }
 
+.icons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .copy {
   font-size: 12px;
 }
 
-figure {
-  display: flex;
-}
