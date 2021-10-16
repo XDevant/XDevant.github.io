@@ -38,7 +38,7 @@ a {
 .title {
   display: flex;
   align-items: center;
-  background-image: url('https://content.codecademy.com/projects/personal_portfolio/background.jpeg');
+  background-image: url('../Assets/background.png');
   background-size: cover;
   color: #ffffff;
   height: 80px;
@@ -115,6 +115,13 @@ a:hover {
 .portrait {
   width:  350px;
   height: 300px;
+}
+
+.banner {
+  background-image: url('../Assets/background.png');
+  background-size: cover;
+  height: 5px;
+  width: 100%;
 }
 
 footer {
