@@ -128,14 +128,13 @@ figure {
 a {
   padding: 0 20px;
   color: darkslateblue;
-  background-color: lavender;
-  transition-property: font-size;
-  transition-duration: 0.2s;
-  transition-timing-function:ease-in;
+  background-color: white;
+  transition: font-size 0.2s ease-in 0.3s, background-color 0.2s ease-in 0.2s;
 }
 
 a:hover {
   font-size: 1.1em;
+  background-color: lavender;
 }
 
 .portrait {
