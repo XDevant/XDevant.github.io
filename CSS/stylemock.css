@@ -97,6 +97,9 @@ h2 {
 
 .jumbotron button {
     padding: 0.5em 1em;
+    color: aquamarine;
+    background-color: black;
+    border: 1px thick hsl(240, 0%, 10%);
 }
 
 .linebreak,
