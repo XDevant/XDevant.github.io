@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 1050px;
+    height: 1485px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 15%;
+    padding-left: 1em;
+}
+
+header div {
+    width: 75%;
+}
+
+header h1 {
+    padding-left: 1em;
+    margin-bottom: 0;
+}
+
+h1 + p {
+    margin-top: 0;
+    padding-left: 2em;
+}
+
+main {
+    height: 80%;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+main > .aside {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+main > .article {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+aside {
+    border: 1px solid darkslategrey;
+    border-radius: 10px / 10px;
+    width: 80%;
+    background-color: purple;
+    color: antiquewhite;
+    text-shadow: 1px black;
+    padding-right: 1em;
+}
+
+aside li {
+    padding-bottom: 0.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+h5 > a {
+    padding-left: 2em;
+}
+
+
+.contact,
+article ul {
+    list-style-type: none;
+}
+
+article .content {
+    border-left: 1px solid darkslategray;
+}
+
+h3 {
+    padding-left: 1em;
+}
