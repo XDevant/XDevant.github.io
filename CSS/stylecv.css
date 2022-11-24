@@ -33,8 +33,17 @@ header h2 {
     margin: 0;
 }
 
+header p {
+ font-size: 1.1rem;
+}
+
 figure {
     margin: 0;
+}
+
+figure img {
+    height: 150px;
+    width: 112px;
 }
 
 h1 + p {
@@ -45,7 +54,7 @@ h1 + p {
 main {
     height: 80%;
     display: flex;
-    width: 100%;
+    width: 95%;
     flex-direction: row-reverse;
     justify-content: space-around;
 }
@@ -104,4 +113,24 @@ article .content {
 
 h3 {
     padding-left: 1em;
+}
+
+.ranked {
+    display: flex;
+}
+
+.ranked ul{
+    margin-top: 0;
+}
+
+.rank {
+    list-style-type: none;
+}
+
+.rank li {
+    padding-bottom: 0.1em;
+}
+
+.checked {
+    color: orange;
 }
