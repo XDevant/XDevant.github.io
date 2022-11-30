@@ -80,6 +80,11 @@ main {
   align-items: center;
 }
 
+.education {
+  justify-content: space-between;
+  align-items: top;
+}
+
 main section {
   display: flex;
   padding-left: 20px;
@@ -97,6 +102,8 @@ article {
   align-items: center;
   justify-content: start;
 }
+
+
 
 .certified,
 .online {
