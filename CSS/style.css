@@ -85,6 +85,11 @@ main {
   align-items: top;
 }
 
+.education div,
+.education section {
+  height: 100%;
+}
+
 main section {
   display: flex;
   padding-left: 20px;
@@ -103,12 +108,11 @@ article {
   justify-content: start;
 }
 
-
-
 .certified,
 .online {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .online h4 {
