@@ -97,6 +97,11 @@ article {
   justify-content: start;
 }
 
+.online {
+  display: flex;
+  flex-direction: column;
+}
+
 .cursus {
   border: solid darkslategrey 2px;
   border-radius: 5%;
