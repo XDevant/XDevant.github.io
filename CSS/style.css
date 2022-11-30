@@ -82,7 +82,7 @@ main {
 
 .education {
   justify-content: space-between;
-  align-items: top;
+  align-items: baseline;
 }
 
 .education div,
