@@ -77,17 +77,7 @@ main {
   padding-left: 20px;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
-}
-
-.education {
-  justify-content: space-between;
   align-items: baseline;
-}
-
-.education div,
-.education section {
-  height: 100%;
 }
 
 main section {
