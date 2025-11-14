@@ -148,3 +148,14 @@ h3 {
 .checked {
     color: orange;
 }
+
+.span {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.span p {
+    padding-left: 2rem;
+}
